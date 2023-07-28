@@ -1,0 +1,51 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+.box{
+    height: 10.0rem;
+    width: 15.0rem;
+    margin: 1.6rem;
+    padding: 1.6rem;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.gameContainer{
+    display: flex;
+    flex-flow:  wrap;
+    min-height: 90vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.computerChoices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+    position: relative;
+}
+.computerChoices header {
+    position: absolute;
+    top:0;
+}
+.playerChoices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+    position: relative;
+}
+.playerHeader {
+    position: absolute;
+    bottom:0;
+}
+
